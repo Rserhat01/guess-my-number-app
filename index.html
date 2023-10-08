@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Play">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Guess My Number</title>
+</head>
+<body>
+    <div class="header">
+    <div class="header-text">
+        <button class="again"><span class="material-symbols-outlined">
+            refresh
+            </span></button>
+            <p class="round"><span class="round-game">1</span>. Round</p>
+        <p class="between">(Between 0 and 20)</p>
+    </div>
+    </div>
+
+    <div class="middle">
+        <p class="guess">?</p>
+    </div>
+
+    <div class="footer">
+        <div class="left">
+            <p>Get a number!</p>
+            <input type="number" class="guess-number"/>
+            <div class="check-box">
+            <button id="checkbtn" class="checked">Check</button>
+            </div>
+        </div>
+        <div class="right">
+            <p class="message">Guess My Number?</p>
+            <p class="score-text">Score: <span class="score">20</span></p>
+            <p class="highscore-text">Highscore: <span class="highscore">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
